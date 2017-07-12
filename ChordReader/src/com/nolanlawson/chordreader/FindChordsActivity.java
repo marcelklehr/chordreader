@@ -891,13 +891,13 @@ public class FindChordsActivity extends Activity implements OnEditorActionListen
 
 		} else {
 			messageTextView.setText(R.string.find_chords_second_message);
-			messageSecondaryView.setEnabled(false);	
+			messageSecondaryView.setEnabled(true);
 		}
 	}
 	
 	private boolean checkHtmlOfUnknownWebpage() {
 		
-		if (url.contains("www.google.com")) {
+		if (url.contains("google.com")) {
 			return false; // skip google - we're on the search results page
 		}
 		
@@ -926,9 +926,10 @@ public class FindChordsActivity extends Activity implements OnEditorActionListen
 
 	private ChordWebpage findKnownWebpage(String url) {
 		
-		if (url.contains("www.chordie.com")) {
+		if (url.contains("chordie.com")) {
 			return ChordWebpage.Chordie;
 		}
+
 		return null;
 	}
 
