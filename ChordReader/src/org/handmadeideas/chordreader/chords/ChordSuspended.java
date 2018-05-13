@@ -1,4 +1,4 @@
-package com.nolanlawson.chordreader.chords;
+package org.handmadeideas.chordreader.chords;
 
 import java.util.ArrayList;
 import java.util.Arrays;

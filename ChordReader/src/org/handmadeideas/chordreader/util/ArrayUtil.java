@@ -1,4 +1,4 @@
-package com.nolanlawson.chordreader.util;
+package org.handmadeideas.chordreader.util;
 
 import java.lang.reflect.Array;
 

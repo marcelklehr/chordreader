@@ -1,11 +1,11 @@
-package com.nolanlawson.chordreader.data;
+package org.handmadeideas.chordreader.data;
 
 import java.util.HashMap;
 import java.util.Map;
 
 import android.content.Context;
 
-import com.nolanlawson.chordreader.R;
+import org.handmadeideas.chordreader.R;
 
 
 public enum ColorScheme {
